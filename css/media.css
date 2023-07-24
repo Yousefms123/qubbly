@@ -1,0 +1,155 @@
+@media (min-width: 991px) {
+  .bars-dropdown {
+    display: none;
+  }
+
+  .img-width {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* tablet */
+@media (min-width: 570px) and (max-width: 991px) {
+  .img-width {
+    width: 100%;
+    height: 100%;
+  }
+  .header-item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header {
+    height: 100%;
+  }
+  .card-contact {
+    width: 50%;
+  }
+  .desc-card-section {
+    width: 100%;
+  }
+  .navbar-nav .nav-item .nav-link,
+  .collapse button {
+    margin-left: 0;
+  }
+  .pearnt-form {
+    width: 80%;
+  }
+
+  .back-form {
+    background: url(../img/backgroumd-form.svg) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icons-slide {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* mobile */
+@media (max-width: 570px) {
+  *{
+    text-align: center;
+
+  }
+  
+  .navbar-nav .nav-item .nav-link,
+  .collapse button {
+    margin-left: 0;
+  }
+  p{
+    font-size: 12px;
+  }
+h1{
+  font-size: 1em;
+}
+  .card-layout .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-contact {
+    width: 100%;
+  }
+  .header {
+    height: 100%;
+  }
+  .header-item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .head-section {
+    text-align: center;
+  }
+  .right-side-header div h1 {
+    font-size: 2em;
+  }
+  .right-side-header div p {
+    font-size: 1em;
+  }
+  .img-width {
+    width: 100%;
+    height: 100%;
+  }
+  .desc-card-section {
+    width: 100%;
+  }
+  .flex-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .navbar-nav .nav-item .nav-link,
+  .collapse button {
+    margin-left: 0;
+  }
+  .carousel-item {
+    padding: 1rem 0;
+  }
+  .back-form {
+  background-image: linear-gradient(to top, #085078, #85d8ce);
+
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .google {
+    width: 90%;
+  }
+  .google .signup {
+    height: 100%;
+  }
+
+  .icons-slide {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-inner {
+    padding: 0;
+  }
+  .div-btn-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .div-btn-header button {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  
+}
